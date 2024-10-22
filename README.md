@@ -5,6 +5,10 @@
 #### NIM    = 312410312  
 #### Matkul = BAHASA PEMOGRAMAN
 
+# screenshot visual studio code
+
+![Screenshot 2024-10-22 104107](https://github.com/user-attachments/assets/0a2f2536-b124-497b-9627-2b8759364776)
+
 # Program Perhitungan Nilai Akhir Siswa
 
 ## Deskripsi
