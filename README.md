@@ -78,3 +78,61 @@ Keterangan: LULUS
 - **Tugas, UTS, dan UAS** dimasukkan oleh pengguna sebagai input dengan tipe `float`.
 - Nilai akhir dihitung menggunakan bobot tertentu (20% tugas, 40% UTS, 40% UAS).
 - Berdasarkan nilai akhir, program menentukan nilai huruf dan keterangan kelulusan.
+
+# latihan 2
+# Program Pengecekan Gaji, Status Keluarga, dan Kepemilikan Rumah
+
+## Deskripsi
+Program ini menerima input gaji, status keluarga (sudah berkeluarga atau belum), dan status kepemilikan rumah dari pengguna, 
+kemudian melakukan beberapa pengecekan sebagai berikut:
+1. Apakah gaji di atas UMR (Upah Minimum Regional).
+2. Jika gaji di atas UMR, program akan mengecek apakah pengguna sudah berkeluarga untuk menentukan kewajiban mengikuti asuransi dan menabung.
+3. Program juga mengecek apakah pengguna memiliki rumah untuk menentukan kewajiban membayar pajak rumah.
+
+## Cara Kerja Program
+1. Program meminta input dari pengguna untuk gaji, status berkeluarga, dan status kepemilikan rumah.
+2. Jika gaji lebih dari 3.000.000, program akan mencetak "Gaji sudah di atas UMR". Jika tidak, akan mencetak "Gaji belum UMR".
+3. Jika pengguna sudah berkeluarga, program akan mencetak "Wajib ikutan asuransi dan menabung untuk pensiun", 
+   namun jika belum berkeluarga, akan mencetak "Tidak perlu ikutan asuransi".
+4. Jika pengguna memiliki rumah, program akan mencetak "Wajib bayar pajak rumah". Jika tidak memiliki rumah, 
+   akan mencetak "Tidak wajib bayar pajak rumah".
+
+## Struktur Program
+- **Input:**
+  - Gaji (int)
+  - Status berkeluarga (Y/T)
+  - Status kepemilikan rumah (Y/T)
+  
+- **Output:**
+  - Apakah gaji sudah di atas UMR atau belum
+  - Kewajiban mengikuti asuransi jika sudah berkeluarga
+  - Kewajiban membayar pajak rumah jika punya rumah
+
+## Contoh Penggunaan
+```
+Masukkan gaji: 3500000
+Sudah berkeluarga? (Y/T): Y
+Punya rumah? (Y/T): N
+
+Gaji sudah diatas UMR
+Wajib ikutan asuransi dan menabung untuk pensiun
+Tidak wajib bayar pajak rumah
+```
+# berikut hasil screenshot visual studio code
+
+```
+Masukkan gaji: 2500000
+Sudah berkeluarga? (Y/T): y
+Punya rumah? (Y/T): Y
+
+Gaji belum UMR
+Tidak wajib bayar pajak rumah
+```
+# berikut hasil screenshot visual studio code
+
+![Screenshot 2024-10-22 105052](https://github.com/user-attachments/assets/73350dca-6d08-493e-9340-30affd7f0e3d)
+
+## Penjelasan
+- **Pengecekan berkeluarga dan punya rumah**: Variabel `berkeluarga` dan `punya_rumah` dicek dengan perbandingan input terhadap "Y" 
+  menggunakan `input().strip().upper() == "Y"`, yang memastikan bahwa input diubah menjadi huruf kapital dan mengabaikan spasi yang tidak perlu.
+- Program ini menggunakan `if-else` untuk menentukan pesan yang akan ditampilkan berdasarkan kondisi gaji, status keluarga, dan status kepemilikan rumah.
