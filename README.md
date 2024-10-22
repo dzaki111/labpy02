@@ -1,7 +1,4 @@
 # labpy02
-
-![Screenshot 2024-08-01 010530](https://github.com/user-attachments/assets/6eef6a11-73f2-4324-a6d4-33e2b0b53565)
-
 #### Nama   = DZAKI ARIF RAHMAN  
 #### Kelas  = TI.24.A4  
 #### NIM    = 312410312  
@@ -193,6 +190,10 @@ Masukkan bilangan C: 5
 
 SALAH
 ```
+## beriku screenshot visual studio code 
+
+![Screenshot 2024-10-22 114110](https://github.com/user-attachments/assets/ef996678-ac15-40cd-bea3-5d968110639d)
+
 Di sini, program mencetak "SALAH" karena tidak ada kombinasi A + B, B + C, atau C + A yang sama dengan salah satu bilangan lainnya.
 
 ## Penjelasan
