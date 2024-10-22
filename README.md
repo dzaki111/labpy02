@@ -142,3 +142,59 @@ Tidak wajib bayar pajak rumah
 - Program ini menggunakan `if-else` untuk menentukan pesan yang akan ditampilkan berdasarkan kondisi gaji, status keluarga, dan status kepemilikan rumah.
 
 # LATIHAN 3
+# Program Pengecekan Relasi Antara Tiga Bilangan
+
+## Deskripsi
+Program ini menerima input tiga bilangan A, B, dan C, kemudian melakukan pengecekan apakah jumlah dua bilangan dari tiga bilangan tersebut sama dengan bilangan ketiga.
+
+## Cara Kerja Program
+1. Program meminta input dari pengguna untuk tiga bilangan (A, B, dan C).
+2. Program mengecek apakah salah satu dari kondisi berikut terpenuhi:
+   - Apakah A + B = C?
+   - Apakah B + C = A?
+   - Apakah C + A = B?
+3. Jika salah satu dari kondisi tersebut terpenuhi, program akan mencetak "BENAR". Jika tidak ada kondisi yang terpenuhi, program akan mencetak "SALAH".
+
+## Struktur Program
+- **Input:**
+  - Bilangan A (int)
+  - Bilangan B (int)
+  - Bilangan C (int)
+  
+- **Output:**
+  - "BENAR" jika salah satu dari kondisi penjumlahan dua bilangan sama dengan bilangan ketiga terpenuhi.
+  - "SALAH" jika tidak ada kondisi penjumlahan yang terpenuhi.
+
+## Contoh Penggunaan
+```
+Masukkan bilangan A: 3
+Masukkan bilangan B: 5
+Masukkan bilangan C: 8
+
+BENAR
+```
+Pada contoh di atas, program mencetak "BENAR" karena A + B = C (3 + 5 = 8).
+
+```
+Masukkan bilangan A: 4
+Masukkan bilangan B: 6
+Masukkan bilangan C: 10
+
+BENAR
+```
+Pada contoh ini, program mencetak "BENAR" karena A + B = C (4 + 6 = 10).
+
+```
+Masukkan bilangan A: 1
+Masukkan bilangan B: 2
+Masukkan bilangan C: 5
+
+SALAH
+```
+Di sini, program mencetak "SALAH" karena tidak ada kombinasi A + B, B + C, atau C + A yang sama dengan salah satu bilangan lainnya.
+
+## Penjelasan
+- Program menerima tiga bilangan sebagai input dari pengguna.
+- Program menggunakan operator logika **or** untuk mengecek apakah salah satu dari tiga kemungkinan penjumlahan (A + B = C, B + C = A, atau C + A = B) benar.
+- Jika salah satu kondisi tersebut benar, program mencetak "BENAR", dan jika tidak, mencetak "SALAH".
+
