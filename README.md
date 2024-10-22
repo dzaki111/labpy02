@@ -1,5 +1,7 @@
 # labpy02
 
+![Screenshot 2024-08-01 010530](https://github.com/user-attachments/assets/6eef6a11-73f2-4324-a6d4-33e2b0b53565)
+
 #### Nama   = DZAKI ARIF RAHMAN  
 #### Kelas  = TI.24.A4  
 #### NIM    = 312410312  
