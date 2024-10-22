@@ -6,10 +6,6 @@
 #### Matkul = BAHASA PEMOGRAMAN
 
 # LATIHAN 1
-# screenshot visual studio code
-
-![Screenshot 2024-10-22 105052](https://github.com/user-attachments/assets/bf968f14-87b8-472c-9ac6-d18f8ba454f8)
-
 # Program Perhitungan Nilai Akhir Siswa
 
 ## Deskripsi
@@ -73,6 +69,9 @@ Nilai Akhir: 80.0
 Nilai Huruf : B
 Keterangan: LULUS
 ```
+## screenshot visual studio code
+
+![Screenshot 2024-10-22 105052](https://github.com/user-attachments/assets/bf968f14-87b8-472c-9ac6-d18f8ba454f8)
 
 ## Penjelasan
 - **Tugas, UTS, dan UAS** dimasukkan oleh pengguna sebagai input dengan tipe `float`.
