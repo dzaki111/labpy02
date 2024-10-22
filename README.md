@@ -5,9 +5,10 @@
 #### NIM    = 312410312  
 #### Matkul = BAHASA PEMOGRAMAN
 
+# latihan 1
 # screenshot visual studio code
 
-![Screenshot 2024-10-22 104107](https://github.com/user-attachments/assets/0a2f2536-b124-497b-9627-2b8759364776)
+![Screenshot 2024-10-22 105052](https://github.com/user-attachments/assets/bf968f14-87b8-472c-9ac6-d18f8ba454f8)
 
 # Program Perhitungan Nilai Akhir Siswa
 
