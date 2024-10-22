@@ -68,9 +68,9 @@ Nama : Budi
 Nilai UTS : 75.0
 Nilai UAS : 85.0
 Nilai Tugas: 80.0
-Nilai Akhir: 81.0
+Nilai Akhir: 80.0
 
-Nilai Huruf : A
+Nilai Huruf : B
 Keterangan: LULUS
 ```
 
