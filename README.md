@@ -5,7 +5,7 @@
 #### NIM    = 312410312  
 #### Matkul = BAHASA PEMOGRAMAN
 
-# latihan 1
+# LATIHAN 1
 # screenshot visual studio code
 
 ![Screenshot 2024-10-22 105052](https://github.com/user-attachments/assets/bf968f14-87b8-472c-9ac6-d18f8ba454f8)
@@ -79,7 +79,7 @@ Keterangan: LULUS
 - Nilai akhir dihitung menggunakan bobot tertentu (20% tugas, 40% UTS, 40% UAS).
 - Berdasarkan nilai akhir, program menentukan nilai huruf dan keterangan kelulusan.
 
-# latihan 2
+# LATIHAN 2
 # Program Pengecekan Gaji, Status Keluarga, dan Kepemilikan Rumah
 
 ## Deskripsi
@@ -109,10 +109,11 @@ kemudian melakukan beberapa pengecekan sebagai berikut:
   - Kewajiban membayar pajak rumah jika punya rumah
 
 ## Contoh Penggunaan
+## gaji di atas UMR
 ```
 Masukkan gaji: 3500000
 Sudah berkeluarga? (Y/T): Y
-Punya rumah? (Y/T): N
+Punya rumah? (Y/T): y
 
 Gaji sudah diatas UMR
 Wajib ikutan asuransi dan menabung untuk pensiun
@@ -120,6 +121,9 @@ Tidak wajib bayar pajak rumah
 ```
 # berikut hasil screenshot visual studio code
 
+![Screenshot 2024-10-22 112409](https://github.com/user-attachments/assets/d3dbfa6e-de98-43c6-b9f7-31b0e1fc9b68)
+
+## gaji dibawah UMR
 ```
 Masukkan gaji: 2500000
 Sudah berkeluarga? (Y/T): y
@@ -130,9 +134,12 @@ Tidak wajib bayar pajak rumah
 ```
 # berikut hasil screenshot visual studio code
 
-![Screenshot 2024-10-22 105052](https://github.com/user-attachments/assets/73350dca-6d08-493e-9340-30affd7f0e3d)
+![Screenshot 2024-10-22 112111](https://github.com/user-attachments/assets/25b1a8a4-280a-4744-9ed3-cfa0c5f8d7b7)
+
 
 ## Penjelasan
 - **Pengecekan berkeluarga dan punya rumah**: Variabel `berkeluarga` dan `punya_rumah` dicek dengan perbandingan input terhadap "Y" 
   menggunakan `input().strip().upper() == "Y"`, yang memastikan bahwa input diubah menjadi huruf kapital dan mengabaikan spasi yang tidak perlu.
 - Program ini menggunakan `if-else` untuk menentukan pesan yang akan ditampilkan berdasarkan kondisi gaji, status keluarga, dan status kepemilikan rumah.
+
+# LATIHAN 3
