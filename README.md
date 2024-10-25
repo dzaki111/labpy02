@@ -107,7 +107,7 @@ kemudian melakukan beberapa pengecekan sebagai berikut:
   - Kewajiban membayar pajak rumah jika punya rumah
 
 ## Contoh Penggunaan
-## gaji di atas UMR
+# gaji di atas UMR
 ```
 Masukkan gaji: 3500000
 Sudah berkeluarga? (Y/T): Y
@@ -117,11 +117,11 @@ Gaji sudah diatas UMR
 Wajib ikutan asuransi dan menabung untuk pensiun
 Tidak wajib bayar pajak rumah
 ```
-# berikut hasil screenshot visual studio code
+## berikut hasil screenshot visual studio code
 
 ![Screenshot 2024-10-22 112409](https://github.com/user-attachments/assets/d3dbfa6e-de98-43c6-b9f7-31b0e1fc9b68)
 
-## gaji dibawah UMR
+# gaji dibawah UMR
 ```
 Masukkan gaji: 2500000
 Sudah berkeluarga? (Y/T): y
@@ -130,7 +130,7 @@ Punya rumah? (Y/T): Y
 Gaji belum UMR
 Tidak wajib bayar pajak rumah
 ```
-# berikut hasil screenshot visual studio code
+## berikut hasil screenshot visual studio code
 
 ![Screenshot 2024-10-22 112111](https://github.com/user-attachments/assets/25b1a8a4-280a-4744-9ed3-cfa0c5f8d7b7)
 
@@ -200,4 +200,94 @@ Di sini, program mencetak "SALAH" karena tidak ada kombinasi A + B, B + C, atau 
 - Program menerima tiga bilangan sebagai input dari pengguna.
 - Program menggunakan operator logika **or** untuk mengecek apakah salah satu dari tiga kemungkinan penjumlahan (A + B = C, B + C = A, atau C + A = B) benar.
 - Jika salah satu kondisi tersebut benar, program mencetak "BENAR", dan jika tidak, mencetak "SALAH".
+
+# Program Pemesanan Tiket Bioskop
+
+Program ini digunakan untuk menghitung total harga tiket bioskop berdasarkan tipe tiket yang dipilih oleh pengguna (reguler atau VIP) dan status keanggotaan (member atau bukan). Program ini mendukung pemberian diskon sebesar 20% untuk pengguna yang memiliki kartu member.
+
+## Fitur Program
+- **Dukungan untuk dua tipe tiket**: `reguler` (Rp50.000) dan `VIP` (Rp100.000).
+- **Diskon khusus** untuk pemegang kartu member, yaitu diskon sebesar 20% dari harga tiket.
+- **Penghitungan otomatis** harga total berdasarkan tipe tiket dan status member pengguna.
+
+## Petunjuk Penggunaan
+
+1. **Masukkan tipe tiket**:
+   - Ketik `reguler` jika Anda ingin membeli tiket reguler.
+   - Ketik `vip` jika Anda ingin membeli tiket VIP.
+   
+2. **Masukkan status member**:
+   - Ketik `ya` jika Anda memiliki kartu member.
+   - Ketik `tidak` jika Anda tidak memiliki kartu member.
+   
+3. Program akan menampilkan **total harga tiket** yang harus dibayar, setelah menghitung diskon jika berlaku.
+
+## Struktur Kode dan Penjelasan
+
+### 1. Variabel Harga
+```python
+harga_tiket_reguler = 50000
+harga_tiket_vip = 100000
+diskon_member = 0.20
+```
+Variabel ini digunakan untuk menyimpan harga tiket reguler, harga tiket VIP, dan persentase diskon bagi pengguna dengan kartu member.
+
+### 2. Meminta Input Pengguna
+```python
+tipe_tiket = input("Masukkan tipe tiket (reguler/vip): ").strip().lower()
+status_member = input("Apakah Anda memiliki kartu member? (ya/tidak): ").strip().lower()
+```
+Kode di atas meminta pengguna untuk memasukkan tipe tiket dan status member. Input pengguna diubah menjadi huruf kecil agar validasi lebih mudah.
+
+### 3. Pemilihan Harga Tiket
+```python
+if tipe_tiket == "reguler":
+    harga_tiket = harga_tiket_reguler
+elif tipe_tiket == "vip":
+    harga_tiket = harga_tiket_vip
+else:
+    print("Tipe tiket tidak valid.")
+    exit()
+```
+Bagian ini menentukan harga tiket berdasarkan input tipe tiket. Jika tipe tiket tidak valid, program akan menampilkan pesan kesalahan dan berhenti.
+
+### 4. Menghitung Total Harga dengan Diskon (Jika Berlaku)
+```python
+total_harga = harga_tiket * (1 - diskon_member) if status_member == "ya" else harga_tiket
+```
+Menggunakan operator ternary, kode ini menghitung total harga:
+- Jika pengguna memiliki kartu member (`ya`), harga tiket akan dikalikan dengan `(1 - diskon_member)`.
+- Jika tidak memiliki kartu member, harga tiket tetap.
+
+### 5. Menampilkan Total Harga
+```python
+print(f"Total harga yang harus dibayar: Rp{total_harga:,}")
+```
+Bagian ini menampilkan total harga tiket dalam format rupiah.
+
+## Contoh Output
+
+- **Input**:
+  ```
+  Masukkan tipe tiket (reguler/vip): reguler
+  Apakah Anda memiliki kartu member? (ya/tidak): ya
+  ```
+- **Output**:
+  ```
+  Total harga yang harus dibayar: Rp40,000
+  ```
+
+## Persyaratan Sistem
+- Python 3.x
+
+## Cara Menjalankan Program
+1. Pastikan Python telah terinstal di sistem Anda.
+2. Simpan kode di atas dalam file `tiket_bioskop.py`.
+3. Buka terminal atau command prompt, navigasikan ke folder tempat file disimpan, lalu jalankan perintah:
+   ```bash
+   python tiket_bioskop.py
+   ```
+
+## Lisensi
+Proyek ini bersifat open-source dan dapat digunakan dengan bebas.
 
