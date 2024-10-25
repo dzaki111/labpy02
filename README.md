@@ -265,7 +265,7 @@ print(f"Total harga yang harus dibayar: Rp{total_harga:,}")
 ```
 Bagian ini menampilkan total harga tiket dalam format rupiah.
 
-## Contoh Output
+## Contoh Output TIKET REGULER
 
 - **Input**:
   ```
@@ -280,6 +280,21 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
 
 ![Screenshot 2024-10-25 153050](https://github.com/user-attachments/assets/af3b09fa-35bf-4fd4-9364-648d076aefd6)
 
+## Contoh Output TIKET REGULER
+
+- **Input**:
+  ```
+  Masukkan tipe tiket (reguler/vip): vip
+  Apakah Anda memiliki kartu member? (ya/tidak): ya
+  ```
+- **Output**:
+  ```
+  Total harga yang harus dibayar: Rp80,000
+  ```
+## hasil screenshot vsc
+
+![Screenshot 2024-10-25 153151](https://github.com/user-attachments/assets/d179dabc-5924-4c08-92db-ffbe1d6f9c7d)
+
 ## Cara Menjalankan Program
 1. Pastikan Python telah terinstal di sistem Anda.
 2. Simpan kode di atas dalam file `tiket_bioskop.py`.
@@ -287,7 +302,10 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
    ```bash
    python tiket_bioskop.py
    ```
-## hasil screenshot vsc
+## FLOWCHARTNYA
+
+
+
 
 
 
