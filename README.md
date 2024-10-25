@@ -201,7 +201,7 @@ Di sini, program mencetak "SALAH" karena tidak ada kombinasi A + B, B + C, atau 
 - Program menggunakan operator logika **or** untuk mengecek apakah salah satu dari tiga kemungkinan penjumlahan (A + B = C, B + C = A, atau C + A = B) benar.
 - Jika salah satu kondisi tersebut benar, program mencetak "BENAR", dan jika tidak, mencetak "SALAH".
 
-# Program Pemesanan Tiket Bioskop
+# KASUS 1 Program Pemesanan Tiket Bioskop
 
 Program ini digunakan untuk menghitung total harga tiket bioskop berdasarkan tipe tiket yang dipilih oleh pengguna (reguler atau VIP) dan status keanggotaan (member atau bukan). Program ini mendukung pemberian diskon sebesar 20% untuk pengguna yang memiliki kartu member.
 
@@ -277,9 +277,6 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
   Total harga yang harus dibayar: Rp40,000
   ```
 
-## Persyaratan Sistem
-- Python 3.x
-
 ## Cara Menjalankan Program
 1. Pastikan Python telah terinstal di sistem Anda.
 2. Simpan kode di atas dalam file `tiket_bioskop.py`.
@@ -287,7 +284,7 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
    ```bash
    python tiket_bioskop.py
    ```
+## hasil screenshot vsc
 
-## Lisensi
-Proyek ini bersifat open-source dan dapat digunakan dengan bebas.
+
 
