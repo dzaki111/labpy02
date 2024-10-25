@@ -276,6 +276,9 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
   ```
   Total harga yang harus dibayar: Rp40,000
   ```
+## hasil screenshot vsc
+
+![Screenshot 2024-10-25 153050](https://github.com/user-attachments/assets/af3b09fa-35bf-4fd4-9364-648d076aefd6)
 
 ## Cara Menjalankan Program
 1. Pastikan Python telah terinstal di sistem Anda.
