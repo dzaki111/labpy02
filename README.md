@@ -304,5 +304,7 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
    ```
 ## FLOWCHARTNYA
 
+![Screenshot 2024-10-26 172000](https://github.com/user-attachments/assets/affa24f1-e80a-4ba0-8e10-f947004f5a5c)
 
+# KASUS 2
 
