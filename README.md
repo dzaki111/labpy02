@@ -280,7 +280,7 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
 
 ![Screenshot 2024-10-25 153050](https://github.com/user-attachments/assets/af3b09fa-35bf-4fd4-9364-648d076aefd6)
 
-## Contoh Output TIKET REGULER
+## Contoh Output TIKET VIP
 
 - **Input**:
   ```
@@ -304,5 +304,5 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
    ```
 ## FLOWCHARTNYA
 
-![image](https://github.com/user-attachments/assets/fcbfdbcf-9470-440f-97eb-39b319c62467)
+
 
