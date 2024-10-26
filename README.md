@@ -36,7 +36,7 @@ berdasarkan kriteria nilai akhir.
 
 5. Program kemudian mencetak hasilnya ke layar.
 
-## Struktur Program
+## contoh input dan output
 - **Input:**
   - Nama siswa
   - Nilai UTS (float)
