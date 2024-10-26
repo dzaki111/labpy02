@@ -205,6 +205,7 @@ Di sini, program mencetak "SALAH" karena tidak ada kombinasi A + B, B + C, atau 
 # KASUS 1 
 # Program Pemesanan Tiket Bioskop
 
+## Deskripsi
 Program ini digunakan untuk menghitung total harga tiket bioskop berdasarkan tipe tiket yang dipilih oleh pengguna (reguler atau VIP) dan status keanggotaan (member atau bukan). Program ini mendukung pemberian diskon sebesar 20% untuk pengguna yang memiliki kartu member.
 
 ## Fitur Program
@@ -282,7 +283,7 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
 
 ![Screenshot 2024-10-25 153050](https://github.com/user-attachments/assets/af3b09fa-35bf-4fd4-9364-648d076aefd6)
 
-## Contoh Output TIKET VIP
+## Contoh input dan Output 
 
 - **Input**:
   ```
