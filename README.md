@@ -95,7 +95,7 @@ kemudian melakukan beberapa pengecekan sebagai berikut:
 4. Jika pengguna memiliki rumah, program akan mencetak "Wajib bayar pajak rumah". Jika tidak memiliki rumah, 
    akan mencetak "Tidak wajib bayar pajak rumah".
 
-## Struktur Program
+## contoh input output
 - **Input:**
   - Gaji (int)
   - Status berkeluarga (Y/T)
@@ -154,7 +154,7 @@ Program ini menerima input tiga bilangan A, B, dan C, kemudian melakukan pengece
    - Apakah C + A = B?
 3. Jika salah satu dari kondisi tersebut terpenuhi, program akan mencetak "BENAR". Jika tidak ada kondisi yang terpenuhi, program akan mencetak "SALAH".
 
-## Struktur Program
+## contoh input dan output
 - **Input:**
   - Bilangan A (int)
   - Bilangan B (int)
@@ -224,7 +224,7 @@ Program ini digunakan untuk menghitung total harga tiket bioskop berdasarkan tip
    
 3. Program akan menampilkan **total harga tiket** yang harus dibayar, setelah menghitung diskon jika berlaku.
 
-## Struktur Kode dan Penjelasan
+## cara kerja program
 
 ### 1. Variabel Harga
 ```python
