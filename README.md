@@ -190,6 +190,7 @@ Masukkan bilangan C: 5
 
 SALAH
 ```
+Pada contoh ini, program mencetak "SALAH" karena A + B = C (1 + 2 = 5).
 ## beriku screenshot visual studio code 
 
 ![Screenshot 2024-10-22 114110](https://github.com/user-attachments/assets/ef996678-ac15-40cd-bea3-5d968110639d)
