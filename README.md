@@ -202,7 +202,8 @@ Di sini, program mencetak "SALAH" karena tidak ada kombinasi A + B, B + C, atau 
 - Program menggunakan operator logika **or** untuk mengecek apakah salah satu dari tiga kemungkinan penjumlahan (A + B = C, B + C = A, atau C + A = B) benar.
 - Jika salah satu kondisi tersebut benar, program mencetak "BENAR", dan jika tidak, mencetak "SALAH".
 
-# KASUS 1 Program Pemesanan Tiket Bioskop
+# KASUS 1 
+# Program Pemesanan Tiket Bioskop
 
 Program ini digunakan untuk menghitung total harga tiket bioskop berdasarkan tipe tiket yang dipilih oleh pengguna (reguler atau VIP) dan status keanggotaan (member atau bukan). Program ini mendukung pemberian diskon sebesar 20% untuk pengguna yang memiliki kartu member.
 
