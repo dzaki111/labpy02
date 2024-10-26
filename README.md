@@ -268,7 +268,7 @@ print(f"Total harga yang harus dibayar: Rp{total_harga:,}")
 ```
 Bagian ini menampilkan total harga tiket dalam format rupiah.
 
-## Contoh Output TIKET REGULER
+# Contoh input dan Output TIKET REGULER
 
 - **Input**:
   ```
@@ -283,7 +283,7 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
 
 ![Screenshot 2024-10-25 153050](https://github.com/user-attachments/assets/af3b09fa-35bf-4fd4-9364-648d076aefd6)
 
-## Contoh input dan Output 
+# Contoh input dan Output TIKET VIP 
 
 - **Input**:
   ```
