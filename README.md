@@ -53,7 +53,7 @@ berdasarkan kriteria nilai akhir.
   - Keterangan ("LULUS" atau "TIDAK LULUS")
 
 ## Contoh Penggunaan
-```
+```python
 Masukkan nama: Budi
 Masukkan nilai UTS: 75
 Masukkan nilai UAS: 85
