@@ -310,4 +310,88 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
 ![Screenshot 2024-10-26 172000](https://github.com/user-attachments/assets/affa24f1-e80a-4ba0-8e10-f947004f5a5c)
 
 # KASUS 2
+# Program Kalkulator Sederhana
+
+Program ini adalah kalkulator sederhana yang dapat melakukan empat operasi aritmatika dasar: penjumlahan, pengurangan, perkalian, dan pembagian. Pengguna hanya perlu memasukkan dua angka dan memilih operator, dan program akan menampilkan hasil perhitungan.
+
+## Fitur Program
+- Mendukung empat operasi aritmatika:
+  - **Penjumlahan** (`+`)
+  - **Pengurangan** (`-`)
+  - **Perkalian** (`*`)
+  - **Pembagian** (`/`)
+- **Validasi pembagian dengan nol** untuk mencegah kesalahan saat melakukan operasi pembagian.
+
+## Cara Menggunakan Program
+1. Masukkan angka pertama saat diminta.
+2. Pilih operator aritmatika dari pilihan berikut: `+`, `-`, `*`, `/`.
+3. Masukkan angka kedua saat diminta.
+4. Program akan menghitung hasil sesuai operator dan menampilkan hasilnya di layar.
+
+## Struktur Kode dan Penjelasan
+
+### 1. Input dari Pengguna
+```python
+angka1 = float(input("Masukkan angka pertama: "))
+operator = input("Masukkan operator (+, -, *, /): ").strip()
+angka2 = float(input("Masukkan angka kedua: "))
+```
+Bagian ini meminta pengguna untuk memasukkan dua angka (`angka1` dan `angka2`) serta operator aritmatika yang diinginkan. `input()` mengambil data dari pengguna, dan `float()` mengonversi input menjadi angka desimal.
+
+### 2. Memilih Operasi dengan Struktur `if-elif-else`
+```python
+if operator == "+":
+    hasil = angka1 + angka2
+elif operator == "-":
+    hasil = angka1 - angka2
+elif operator == "*":
+    hasil = angka1 * angka2
+elif operator == "/":
+    if angka2 == 0:
+        print("Error: Pembagian dengan nol tidak diperbolehkan.")
+        exit()
+    hasil = angka1 / angka2
+else:
+    print("Operator tidak valid.")
+    exit()
+```
+Bagian ini menggunakan struktur `if-elif-else` untuk menentukan operasi berdasarkan operator yang dimasukkan pengguna:
+- `+` untuk penjumlahan.
+- `-` untuk pengurangan.
+- `*` untuk perkalian.
+- `/` untuk pembagian. Sebelum melakukan pembagian, program memeriksa jika `angka2` adalah nol untuk menghindari kesalahan.
+
+### 3. Menampilkan Hasil
+```python
+print(f"Hasil: {angka1} {operator} {angka2} = {hasil}")
+```
+Setelah operasi selesai, hasil perhitungan ditampilkan dalam format yang mudah dibaca.
+
+## Contoh Output
+
+- **Input**:
+  ```
+  Masukkan angka pertama: 10
+  Masukkan operator (+, -, *, /): *
+  Masukkan angka kedua: 5
+  ```
+- **Output**:
+  ```
+  Hasil: 10 * 5 = 50.0
+  ```
+
+## hasil screenshot vsc
+
+
+## Cara Menjalankan Program
+1. Pastikan Python telah terinstal di sistem Anda.
+2. Simpan kode di atas dalam file bernama `kalkulator.py`.
+3. Buka terminal atau command prompt, navigasikan ke folder tempat file disimpan, lalu jalankan perintah:
+   ```bash
+   python kalkulator.py
+   ```
+
+## FLOWCHARTNYA
+
+![Screenshot 2024-10-27 153830](https://github.com/user-attachments/assets/3d99b859-6ac9-4b99-b360-b53c130d5248)
 
