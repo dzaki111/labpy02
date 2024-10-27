@@ -367,7 +367,31 @@ print(f"Hasil: {angka1} {operator} {angka2} = {hasil}")
 ```
 Setelah operasi selesai, hasil perhitungan ditampilkan dalam format yang mudah dibaca.
 
-## Contoh Output
+## Contoh input dan Output PENJUMLAHAN
+
+- **Input**:
+  ```
+  Masukkan angka pertama: 10
+  Masukkan operator (+, -, *, /): +
+  Masukkan angka kedua: 5
+  ```
+- **Output**:
+  ```
+  Hasil: 10 + 5 = 15.0
+  ```
+## Contoh input dan Output PENGURANGAN
+
+- **Input**:
+  ```
+  Masukkan angka pertama: 10
+  Masukkan operator (+, -, *, /): -
+  Masukkan angka kedua: 5
+  ```
+- **Output**:
+  ```
+  Hasil: 10 - 5 = 5.0
+  ```
+## Contoh input dan Output PEKALIAN
 
 - **Input**:
   ```
@@ -379,7 +403,19 @@ Setelah operasi selesai, hasil perhitungan ditampilkan dalam format yang mudah d
   ```
   Hasil: 10 * 5 = 50.0
   ```
+## Contoh input dan Output PEMBAGIAN
 
+- **Input**:
+  ```
+  Masukkan angka pertama: 10
+  Masukkan operator (+, -, *, /): /
+  Masukkan angka kedua: 5
+  ```
+- **Output**:
+  ```
+  Hasil: 10 / 5 = 2.0
+  ```
+  
 ## hasil screenshot vsc
 
 
