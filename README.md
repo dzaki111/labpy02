@@ -108,7 +108,7 @@ kemudian melakukan beberapa pengecekan sebagai berikut:
 
 ## Contoh Penggunaan
 # gaji di atas UMR
-```
+```python
 Masukkan gaji: 3500000
 Sudah berkeluarga? (Y/T): Y
 Punya rumah? (Y/T): y
@@ -122,7 +122,7 @@ Tidak wajib bayar pajak rumah
 ![Screenshot 2024-10-22 112409](https://github.com/user-attachments/assets/d3dbfa6e-de98-43c6-b9f7-31b0e1fc9b68)
 
 # gaji dibawah UMR
-```
+```python
 Masukkan gaji: 2500000
 Sudah berkeluarga? (Y/T): y
 Punya rumah? (Y/T): Y
@@ -165,7 +165,7 @@ Program ini menerima input tiga bilangan A, B, dan C, kemudian melakukan pengece
   - "SALAH" jika tidak ada kondisi penjumlahan yang terpenuhi.
 
 ## Contoh Penggunaan
-```
+```python
 Masukkan bilangan A: 3
 Masukkan bilangan B: 5
 Masukkan bilangan C: 8
@@ -174,7 +174,7 @@ BENAR
 ```
 Pada contoh di atas, program mencetak "BENAR" karena A + B = C (3 + 5 = 8).
 
-```
+```python
 Masukkan bilangan A: 4
 Masukkan bilangan B: 6
 Masukkan bilangan C: 10
@@ -183,7 +183,7 @@ BENAR
 ```
 Pada contoh ini, program mencetak "BENAR" karena A + B = C (4 + 6 = 10).
 
-```
+```python
 Masukkan bilangan A: 1
 Masukkan bilangan B: 2
 Masukkan bilangan C: 5
@@ -271,12 +271,12 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
 # Contoh input dan Output TIKET REGULER
 
 - **Input**:
-  ```
+  ```python
   Masukkan tipe tiket (reguler/vip): reguler
   Apakah Anda memiliki kartu member? (ya/tidak): ya
   ```
 - **Output**:
-  ```
+  ```python
   Total harga yang harus dibayar: Rp40,000
   ```
 ## hasil screenshot vsc
@@ -286,12 +286,12 @@ Bagian ini menampilkan total harga tiket dalam format rupiah.
 # Contoh input dan Output TIKET VIP 
 
 - **Input**:
-  ```
+  ```python
   Masukkan tipe tiket (reguler/vip): vip
   Apakah Anda memiliki kartu member? (ya/tidak): ya
   ```
 - **Output**:
-  ```
+  ```python
   Total harga yang harus dibayar: Rp80,000
   ```
 ## hasil screenshot vsc
@@ -370,49 +370,49 @@ Setelah operasi selesai, hasil perhitungan ditampilkan dalam format yang mudah d
 ## Contoh input dan Output PENJUMLAHAN
 
 - **Input**:
-  ```
+  ```python
   Masukkan angka pertama: 10
   Masukkan operator (+, -, *, /): +
   Masukkan angka kedua: 5
   ```
 - **Output**:
-  ```
+  ```python
   Hasil: 10 + 5 = 15.0
   ```
 ## Contoh input dan Output PENGURANGAN
 
 - **Input**:
-  ```
+  ```python
   Masukkan angka pertama: 10
   Masukkan operator (+, -, *, /): -
   Masukkan angka kedua: 5
   ```
 - **Output**:
-  ```
+  ```python
   Hasil: 10 - 5 = 5.0
   ```
 ## Contoh input dan Output PEKALIAN
 
 - **Input**:
-  ```
+  ```[ython
   Masukkan angka pertama: 10
   Masukkan operator (+, -, *, /): *
   Masukkan angka kedua: 5
   ```
 - **Output**:
-  ```
+  ```python
   Hasil: 10 * 5 = 50.0
   ```
 ## Contoh input dan Output PEMBAGIAN
 
 - **Input**:
-  ```
+  ```python
   Masukkan angka pertama: 10
   Masukkan operator (+, -, *, /): /
   Masukkan angka kedua: 5
   ```
 - **Output**:
-  ```
+  ```python
   Hasil: 10 / 5 = 2.0
   ```
   
