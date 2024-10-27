@@ -418,13 +418,14 @@ Setelah operasi selesai, hasil perhitungan ditampilkan dalam format yang mudah d
   
 ## hasil screenshot vsc
 
+![Screenshot 2024-10-27 154808](https://github.com/user-attachments/assets/5ac7e443-083b-4d33-87c6-f1448784a6e5)
 
 ## Cara Menjalankan Program
 1. Pastikan Python telah terinstal di sistem Anda.
 2. Simpan kode di atas dalam file bernama `kalkulator.py`.
 3. Buka terminal atau command prompt, navigasikan ke folder tempat file disimpan, lalu jalankan perintah:
    ```bash
-   python kalkulator.py
+   python kalkulator pratikum2.py
    ```
 
 ## FLOWCHARTNYA
